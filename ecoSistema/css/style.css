@@ -1,0 +1,701 @@
+/*PADRÃO*/
+
+/* HEADER*/
+
+.img-logo{
+    margin-top: 9px;
+    width: 95px;
+}
+.titulo{
+    margin-top: 15px;
+    padding-left: 20%;
+}
+.eco,.sistema{
+    font-family: "Segoe UI";
+    font-size: 92px;
+    font-weight:500;
+}
+.eco{
+    color:rgba(192,192,192,.6);
+}
+.sistema{
+    color:rgba(23,140,17,1);
+}
+.header-menu{
+    width: 100%;
+    background-color: rgb(0,139,68);
+    padding: 8px 0;
+}
+.header-menu ul{
+    margin-left: 160px;
+}
+
+.header-menu ul li{
+   display: inline-block;
+   margin-left: 50px;
+    margin-top: 5px;
+   
+}
+.header-menu ul li a{
+    color:aliceblue;
+    font-family: "Segoe UI"; 
+    transition: 0.2s;
+}
+.header-menu ul li a:hover{
+    color:darkgray;
+    padding: 0;
+}
+.header nav .usuario-icone{
+    width: 40px;
+    position: absolute;
+    right: 200px;
+    top: 125px;
+}
+
+
+
+/*=============================================================*/
+/*SEÇÃO INDEX*/
+.caixa-introducao{
+    background: #fff;
+    height: 450px;
+    box-shadow: 3px 5px 30px gray;
+    margin-bottom: 5px;
+}
+.logar{   
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.logar legend{
+    width: 150px;
+    color: green;
+    font-family: "segoe UI";
+    font-size: 24px;
+}
+.logar label{
+    width: 70px;
+    margin-top: 20px;
+    display: block;
+    font-family: "segoe UI";
+    font-size: 18px;
+    color: dimgrey;
+}
+.logar form input{
+    height: 50px;
+    width: 300px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 7px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+    font-size: 28px;
+}
+.logar form button{
+    display: block;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+.cadastrar{
+    height: 260px;
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 8%;
+    border: 2px solid rgb(218,218,218);
+    padding-bottom: 45px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 5px gray;
+    
+}
+.cadastrar .caixa p{
+    color: green;
+    font-family: "segoe UI";
+    font-size: 34px;
+    text-align: center;
+    
+    
+}
+.cadastrar button{
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 170px;
+    height: 55px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+
+
+/* FOOTER*/
+
+.footer{
+    width: 100%;
+    background-color: rgb(0,139,68);
+    height: 150px;
+    padding: 20px 0;
+}
+.footer p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: "segoe UI";
+}
+.footer .icone{
+    margin-left: 45%;
+}
+
+/*=========================================================*/
+/* CONTATO */
+#cont{
+    height: 500px;
+}
+
+.informacao{
+    height: 350px;
+    margin-left: 30%;
+   
+}
+ .caixa-introducao p{
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    color:rgba(23,140,17,1);
+}
+
+.informacao label{
+    display: block;
+    padding-bottom: 8px;
+    color: dimgrey;
+    margin-top: 10px;
+
+}
+ .informacao form{
+     font-size: 20px;
+     margin-left: 10%;
+     font-family: "Segoe UI";
+}
+.informacao form input, textarea{
+    height: 50px;
+    width: 350px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 7px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+    font-size: 28px;
+}
+.informacao form textarea{
+    height: 100px;
+}
+.informacao form button{
+    margin-top: 10px;
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+/* ==================================================*/
+/*sobre*/
+#sobre{
+    height: 1650px;
+}
+.introducao p{
+    font-family: "Segoe UI";
+    font-size: 30px;
+    color:rgba(23,140,17,1);
+    margin-top: 50px;
+    
+}
+
+.introducao span{
+    font-family: "Segoe UI";
+    color:rgba(23,140,17,1);
+    text-align:justify;
+    
+}
+
+.introducao .imagens img{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.introducao .imagens span{
+    margin-left: 22%;   
+}
+
+.introducao .imagens p{
+    margin-bottom: 10px;
+}
+
+.eco-equipe p{
+    margin-top: 80px ;
+      
+}
+
+.introducao .organiza{
+    clear: both;
+}
+
+.organiza p{
+    margin-top: 20px;
+}
+
+.organiza .foto-equipe{
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.organiza .foto-equipe p{
+    font-size: 20px;
+}
+
+/*=========================================================*/
+/*SEÇAO TELA CADASTRO */
+#c{
+    height: 600px;
+}
+
+#cad{
+    margin-top:40%;
+}
+
+.tela-cadastro{
+    margin-top: 40px;
+}
+.tela-cadastro label{
+    display: inline-block;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: dimgrey;
+}
+
+.tela-cadastro .nm input{
+    width: 250px;
+}
+.tela-cadastro .cpf input{
+    width: 175px;
+}
+.tela-cadastro .end input{
+    width: 280px;
+}
+.tela-cadastro .end{
+    margin-left: 20px;
+}
+
+.tela-cadastro .est input{
+    width: 165px;
+}
+
+.tela-cadastro .cid input{
+    width: 165px;
+}
+.tela-cadastro .bairro input{
+    width: 165px;
+}
+
+.tela-cadastro .senha input{
+    width: 175px;
+}
+.tela-cadastro .rsenha input{
+    width: 175px;
+}
+.tela-cadastro .rsenha{
+    margin-left: 30px;
+}
+
+.tela-cadastro input{
+    height: 30px;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+}
+
+.tela-cadastro legend{
+    margin-bottom: 10px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color:rgba(23,140,17,1);
+}
+
+
+.tela-cadastro button{
+     margin-top: 10px;
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+.tela-cadastro .cancelar{
+     margin-top: 10px;
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(252,45,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+/*===================================================*/
+/* TELA USUARIO*/
+.cor{
+    margin-top: 30px;
+    margin-left: 5%;
+    background-color: blu
+}
+
+.opcoes{
+    padding: 30px;
+}
+.opcoes li{
+    color: rgb(102,102,255);
+    padding: 20px;
+    font-family: "Segoe UI";
+    
+}
+.opcoes li:hover{
+    background-color:rgb(223,223,223);
+    transition: 0.4s;
+}
+.conteudo{
+    height: 400px;
+    margin-top: 20px;
+}
+
+
+/*  IFRAME =======================*/
+iframe{
+    width: 640px;
+    height: 400px;
+}
+/* paragrafo geral*/
+.par{  
+    text-align: center;
+    font-size: 30px;
+    font-family: "Segoe UI";
+    color: rgb(14,137,54);
+    padding-top: 20px;
+    
+}
+
+section#perfil{
+    height: 400px;
+    width: 640px;
+    margin-left: 2px;
+    margin-bottom: 500px;
+}
+#perfil form{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+#perfil label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    color: darkgray;
+}
+
+#perfil button{
+    display: block;
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+}
+
+#perfil input{
+    height: 35px;
+    border-color: black;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+}
+
+.desc{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    color: darkgray;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.l1{
+    border-radius: 7px 0px 0px 7px ;
+    width: 180px;
+    height: 20px;
+    background: rgb(0,191,0);;
+    margin-left: 35%;
+}
+.l2{
+    border-radius: 0px 7px 7px 0px ;
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+    width: 80px;
+    height: 20px;
+    background: rgb(230,230,230);;
+    margin-left: 42%;
+}
+
+section#atualiza-dados{
+    height: 400px;
+    width: 640px;
+    margin-left: 2px;
+    margin-bottom: 500px;
+    
+    
+}
+
+section#pontuacao{
+    height: 400px;
+    width: 640px;
+    margin-left: 2px;
+    margin-bottom: 500px;
+
+}
+
+section#localizacao{
+    height: 400px;
+    width: 640px;
+    margin-left: 2px;
+    margin-bottom: 500px;
+}
+
+section#resgatar{
+    height: 400px;
+    width: 640px;
+    margin-left: 2px;
+    margin-bottom: 500px;
+}
+
+/* ATUALIZAR DADOS */
+.grupo label{
+  display: block;
+  width: 80px;
+}
+.grupo{
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.grupo .est{
+    float: left;
+    
+}
+
+#atualiza-dados label{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    color: darkgray;
+}
+#atualiza-dados input ,select{
+    height: 35px;
+    border-color: black;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+}
+#atualiza-dados button{
+    display: block;
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+    margin-left: 25px;
+}
+
+
+/* PONTUAÇÃO */
+#pontuacao table{
+    font-family: "segoe UI";
+    background-color: rgb(101,206,66);
+    border: 2px solid ;
+    margin-left: 10%;
+    width: 500px;
+    margin-top: -15px
+}
+#pontuacao table tr{
+   text-align: center;
+    border: 2px solid  rgb(101,206,66);
+    
+}
+#pontuacao table  td{
+    color: darkgreen;
+    padding: 2px;
+    border: 4px solid rgb(101,206,66);
+    font-weight: 600;
+    background-color: aliceblue;
+    
+}
+#pontuacao table  th{
+    color: cornsilk;
+    text-shadow: 1px 1px 3px gray;
+    border: 5px solid rgb(101,206,66);
+    padding: 10px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 15px;
+    
+    
+}
+
+#pontuacao .aviso{
+    margin-top: 5%;
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    color:rgb(0,117,0);
+    
+}
+.decomposicao {
+    margin-top: 40%;
+}
+
+
+/* LOCALIZACAO ================================*/
+#localizacao label{
+    width: 380px;
+    display: block;
+    padding-bottom: 15px;
+     font-size: 18px;
+    font-family: "Segoe UI";
+    color: darkgray;
+}
+
+#localizacao form{
+    width: 400px;
+    margin: 0 auto;
+}
+#localizacao input{
+    height: 35px;
+    width: 250px;
+    border-color: black;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(97,194,112);
+    box-shadow: 1px 1px 1px gray;
+}
+
+#localizacao button{
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+    margin-top: -10px;
+    
+}
+.mapa{
+    background-color: blue;
+    width: 600px;
+    margin-left: 4px;
+    height: 228px;
+    padding-top: 4px;
+    margin-top: -10px;
+    background-color: rgb(0,164,0);
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px 1px gray;
+}
+#map{
+    height: 226px;
+    width: 593px;
+    margin-left: 4px;
+    border-radius: 7px;
+    
+}
+
+
+/* RESGATAR */
+#resgatar label{
+    width: 200px;
+   
+}
+#resgatar select{
+    display: block;
+    margin-top: 10px;
+    width: 180px;
+}
+#resgatar label{
+    width: 380px;
+    display: block;
+    padding-bottom: 5px;
+     font-size: 18px;
+    font-family: "Segoe UI";
+    color: darkgray;
+}
+#resgatar form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#resgatar button{
+    font-family: "segoe UI";
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    padding: 10px;
+    background: rgb(14,137,54);
+    color: aliceblue;
+    border: 3px;
+    margin-top: 20px;
+    margin-left: 19%;
+}
+
+.resga{
+    margin-left: 18%;
+    margin-top: 10px;
+    background: rgb(0,118,236);
+}
+.res{
+    margin-left: 24%;
+}
